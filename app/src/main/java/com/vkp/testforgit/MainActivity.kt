@@ -2,6 +2,7 @@ package com.vkp.testforgit
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,6 +12,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initView() {
-
+        Toast.makeText(this, "Chat issue resolved", Toast.LENGTH_LONG).show()
     }
 }
